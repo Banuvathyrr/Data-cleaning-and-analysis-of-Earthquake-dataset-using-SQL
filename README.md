@@ -11,6 +11,7 @@ Initial exploration of the dataset performed to understand its structure and con
 3) Handled blank rows and converting text columns to double. 
 4) Extracted year, month, week, and day name from the date column.  
 5) Handled outliers and dropping unnecessary columns.    
+**SQL functions used**:  LEFT(), str_to_date(), substr(), CAST(),ALTER TABLE,EXTRACT(), WEEK(), dayname(),ROW_NUMBER(), WITH ... AS, Case structure.
 
 ### Data Analysis:
 1) Analysed the distribution of earthquakes over different years, months, and weeks.
@@ -23,7 +24,8 @@ Initial exploration of the dataset performed to understand its structure and con
 8) Ranked earthquakes based on their magnitudes within each year.  
 9) Identified regions with the highest number of earthquakes.  
 10) Calculated the average magnitude of earthquakes each year.  
-11) Identified the highest magnitude earthquake recorded in the dataset.  
+11) Identified the highest magnitude earthquake recorded in the dataset.    
+**SQL functions used**:Aggregate functions:COUNT(),AVG(),MAX(), Window functions: RANK(), DENSE_RANK(),OVER(), Common table expression (CTE)
 
 ### Insights:
 1) Maximum earthquakes occurred in 2011, with March and July being the most active months.  
